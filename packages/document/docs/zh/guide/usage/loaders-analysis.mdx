@@ -71,3 +71,9 @@
 - **所经过的所有 Loader**
 - **[Loader Context](https://webpack.js.org/api/loaders/#the-loader-context) 上的参数数据**
 - **Loader 的输入输出**
+
+## Note
+
+如果你发现 [MiniCssExtractPlugin](https://webpack.docschina.org/plugins/mini-css-extract-plugin#root) 或者 [CssExtractRspackPlugin](https://rspack.dev/plugins/rspack/css-extract-rspack-plugin) 的 Loader 耗时过长，是因为 Loader 中包含了其他 Loader 的耗时和空闲时间，原因如下：
+
+[CssExtractRspackPlugin 的 loader 耗时过长问题](/guide/more/faq#cssextractrspackplugin-%E7%9A%84-loader-%E8%80%97%E6%97%B6%E8%BF%87%E9%95%BF%E9%97%AE%E9%A2%98)

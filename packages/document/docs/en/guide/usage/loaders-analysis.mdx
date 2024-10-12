@@ -70,3 +70,9 @@ As shown in the image, we can obtain the following information about the **targe
 - All the Loaders it has gone through.
 - The **parameter data** on the [**Loader Context**](https://webpack.js.org/api/loaders/#the-loader-context).
 - The input and output of the Loader.
+
+## Note
+
+If you find that the Loader time consumption of [MiniCssExtractPlugin](https://webpack.docschina.org/plugins/mini-css-extract-plugin#root) or [CssExtractRspackPlugin](https://rspack.dev/plugins/rspack/css-extract-rspack-plugin) is too long, it is because the Loader includes the time consumption and idle time of other Loaders, for the following reasons:
+
+[The loader of CssExtractRspackPlugin takes too long](/guide/more/faq#the-loader-of-cssextractrspackplugin-takes-too-long)
