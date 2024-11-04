@@ -28,7 +28,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "webpack": "^5.95.0",
+    "webpack": "^5.96.1",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash": "^4.17.10",
     "@types/node": "^16",
