@@ -34,12 +34,12 @@
     "rsbuild-plugin-open-graph": "^1.0.2",
     "rspress-plugin-font-open-sans": "^1.0.0",
     "rspress-plugin-sitemap": "^1.1.1",
-    "@rspress/plugin-rss": "^1.33.1",
+    "@rspress/plugin-rss": "^1.35.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "react-markdown": "^9.0.1",
     "@rstack-dev/doc-ui": "1.5.2",
-    "rspress": "^1.33.1"
+    "rspress": "^1.35.3"
   }
 }
